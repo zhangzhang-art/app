@@ -8,20 +8,20 @@ nodejs+express+mysql
 
 # 项目结构
 app/
-├─config/            //配置文件目录
-│  ├─db.config.js         //数据库配置
-│  └─logger.config.js    //日志配置
-├─controllers/          //控制器目录
-|  ├─User.js            //登录注册控制器 
-│  └─employee.controller.js         //员工信息控制器
-├─middleware/           //中间件目录
-│  └─vaildate-request.js        //错误信息验证局部中间件
-├─routes/               //路由目录
-│  ├─User.routes.js         //登陆注册路由
-│  └─employee.routes.js         //员工信息路由
-├─logs/     //日志文件目录
-├─.env      //环境变量配置
-└─app.js           //应用入口
+├─config/            //配置文件目录  
+│  ├─db.config.js         //数据库配置  
+│  └─logger.config.js    //日志配置  
+├─controllers/          //控制器目录  
+|  ├─User.js            //登录注册控制器   
+│  └─employee.controller.js         //员工信息控制器  
+├─middleware/           //中间件目录  
+│  └─vaildate-request.js        //错误信息验证局部中间件  
+├─routes/               //路由目录  
+│  ├─User.routes.js         //登陆注册路由  
+│  └─employee.routes.js         //员工信息路由  
+├─logs/     //日志文件目录  
+├─.env      //环境变量配置  
+└─app.js           //应用入口  
 
 # 说明
 采用异步函数编写接口的处理函数,提升运行效率
